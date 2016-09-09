@@ -43,6 +43,7 @@
                 android:layout_above="@+id/tv_introduction"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:transitionName="@string/girl_image"
                 android:scaleType="centerCrop"/>
 
             <TextView

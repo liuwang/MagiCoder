@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String[] menuTitle;
 
+
     private List<Fragment> fragments;
 
     private final int INDEX_HOME = 0;

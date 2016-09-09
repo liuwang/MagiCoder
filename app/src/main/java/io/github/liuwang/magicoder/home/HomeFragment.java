@@ -43,7 +43,7 @@ public class HomeFragment extends Fragment implements HomeConstarct.IHomeView{
         adapter = new HomeRecyclerAdapter(getActivity(), data);
         mLayoutManager = new LinearLayoutManager(mContext, LinearLayoutManager.HORIZONTAL,false);
         mRecyclerView.setLayoutManager(mLayoutManager);
-        adapter = new HomeRecyclerAdapter(mContext, data);
+        adapter = new HomeRecyclerAdapter(getActivity(), data);
         mRecyclerView.setAdapter(adapter);
         LinearSnapHelper linearSnapHelper = new LinearSnapHelper();
         linearSnapHelper.attachToRecyclerView(mRecyclerView);
